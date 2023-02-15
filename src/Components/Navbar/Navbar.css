@@ -1,0 +1,96 @@
+/* :root {
+  --primaryColor:hsl(199,100%, 33%);
+  --secondaryColor:hsl(187,85%, 43%);
+  --gradientColor:linear-gradient(to right, hsl(187, 85%, 43%),hsl(199,100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201,33%,16%);
+  --textColor:hsl(240, 4%, 36%);
+  --whiteColorDean:hsl(0, 0%, 93%);
+  --greyText:rgb(190, 190, 190);
+  --inputColor:rgb(239, 239, 239);
+  --bodyColor:rgb(240, 240, 240);
+  --cardBG:rgb(225, 225, 225);
+}
+
+
+.header .navBar .navLists {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem 0;
+}
+
+.header .navBar .navLists .navItem {
+  padding: 0.5rem 0;
+}
+
+.header .navBar .navLists .navItem navLink {
+  color: var(--textColor);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.header .navBar .navLists .navItem navLink:hover {
+  color: var(--primaryColor);
+}# sourceMappingURL=Navbar.css.map */
+
+
+/* 2 */
+/* .container{
+  display: flex;
+}
+.navLink{
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 200px;
+  width: 100%;
+  background: #180101;
+  flex: 1;
+  transition: .3s all ease;
+
+  }
+  .navLink:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 207);
+  } */
+
+  /* 3 */
+  .container{
+    width: 100%;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 0;
+    height: 55px;
+    margin: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    padding: 16px;
+    margin: 8px 8px;
+  }
+
+  
+  nav a {
+    color: #fff;
+    padding: 2px;
+    margin: 60px;
+    text-decoration: none;
+    transition: .3s all ease;
+  }
+  nav a:hover{
+    flex: 1;
+    background-color: rgb(82, 5, 207);
+  }
+  
