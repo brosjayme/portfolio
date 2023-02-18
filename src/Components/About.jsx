@@ -19,7 +19,7 @@ const About = () => {
             <div>
               <p>I am a Full Stack Developer and UI/UX Designer from Nigeria.
 
-I am a JavaScript enthusiast and a lover of responsive websites.
+I am a JavaScript enthusiast  and a lover of responsive websites.
 
 In 2021 i worked at a digital agency in Nigeria named Cre8tive Tech ,
  with the aim to deliver quality and innovative solutions for startups.</p>  
