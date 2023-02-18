@@ -1,25 +1,15 @@
-import React, {Component} from 'react';
-import ParticlesBg from 'particles-bg';
-import Navbar from './Components/Navbar/Navbar'
-import Home from './Components/Home/Home';
-import Main from './Components/Main/Main'
-import Footer from './Components/Footer/Footer'
-import './App.css';
+import React from 'react'
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
 
-class App extends Component {
-  render() {
+function App () {
   return (
-    <div className="App">
-      <ParticlesBg className='particles' type="cobweb" bg={true} />
-    
-      <Navbar/>
-      <Home/>
-      <Main /> 
-      <Footer/>
-    
+    <div>
+     < Navbar />
+     <Home />
     </div>
   );
-   }
 }
+
 
 export default App;
