@@ -10,25 +10,25 @@ const Navbar = () => {
   const[nav,setNav] = useState(false)
   const handleClick =() => setNav(!nav)
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]  text-gray-300'>
+    <div className='fixed w-full h-20 flex justify-between items-center px-4 bg-[#0a192f]  text-gray-300'>
       <div>
         <img src={Logo} alt='Logo' style={{ width: '65px' }} />
       </div>
 {/* main menu */}
   <ul className='hidden md:flex'>
-    <li> <Link to="home" smooth={true} duration={500}>
+    <li className='px-4 cursor text-gray-350 hover:scale-95'> <Link to="home" smooth={true} duration={500}>
       Home </Link></li>
 
-    <li>  <Link to="about" smooth={true} duration={500}>
+    <li  className='px-4 cursor text-gray-350 hover:scale-95'>  <Link to="about" smooth={true} duration={500}>
       About</Link></li>
 
-      <li>  <Link to="skills" smooth={true} duration={500}>
+      <li  className='px-4 cursor text-gray-350 hover:scale-95'>  <Link to="skills" smooth={true} duration={500}>
       Skills</Link></li>
 
-      <li>  <Link to="portfolio" smooth={true} duration={500}>
+      <li  className='px-4 cursor text-gray-350 hover:scale-95'>  <Link to="portfolio" smooth={true} duration={500}>
       Portfolio</Link></li>
       
-      <li>  <Link to="contact" smooth={true} duration={500}>
+      <li  className='px-4 cursor text-gray-350 hover:scale-95'>  <Link to="contact" smooth={true} duration={500}>
       Contact</Link></li>
   </ul>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
        <Link  onClick={handleClick} to="portfolio" smooth={true} duration={500}>
       Portfolio</Link></li>
     <li className='py-6 text-4xl'> 
-     <Link  onClick={handleClick} to="contact" smooth={true} duration={500}>
+     <Link  onClick={handleClick}  to="contact" smooth={true} duration={500}>
       Contact</Link></li> 
   </ul>
 {/* social icons */} 
