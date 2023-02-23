@@ -25,14 +25,14 @@ import Profile from "../assets/profile.png";
         </div> 
       
     </div>
-    <div className='object-contain h-48 w-96 '>
+    <div>
         <img src={Profile} alt="my profile" 
-        className='rounded-2xl mx-auto md:w-full' />
+        className='rounded-2xl mx-auto px-10 h-48 w-96 md:w-full' />
       </div>
-   </div>
+     </div>
    </div>
    
-  )
-}
+  );
+};
 
 export default Home;
