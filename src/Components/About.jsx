@@ -21,7 +21,7 @@ const About = () => {
 
 I am a JavaScript enthusiast  and a lover of responsive websites.
 
-In 2021 i worked at a digital agency in Nigeria named Cre8tive Tech ,
+In 2021 i worked at a digital agency in Nigeria named Cre8tive Tech , as part of my training
  with the aim to deliver quality and innovative solutions for startups.</p>  
             </div>
           </div>
