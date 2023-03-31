@@ -1,23 +1,25 @@
 import React from 'react'
-import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import About from './Components/About';
-import Skills from './Components/Skills';
-import Portfolio from './Components/Portfolio';
-import Contact from './Components/Contact';
-import SocialLinks from './Components/SocialLinks';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 
 function App () {
   return (
     <div>
-     < Navbar />
-     <Home />
-     <About />
-     <Skills />
-     <Portfolio />
-     <Contact />
+   <Router>
+    <Routes>
+     <Route index element = {<Home/>}/>
+     <Route path='/home' element={<Home/>}/>
+     <Route path='/about' element={<About/>} />
+     <Route path='/skills' element={<Skills/>}/>
+     <Route path='/portfolio' element={<Portfolio/>}/>
+     <Route path='/contact' element={<Contact/>}/>
+     </Routes>
+   </Router>
 
-     <SocialLinks />
     </div>
   );
 }

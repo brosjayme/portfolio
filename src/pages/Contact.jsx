@@ -1,4 +1,6 @@
 import React, { useRef } from 'react';
+import NavBar from '../Components/Navbar';
+import SocialLinks from '../Components/SocialLinks';
 import emailjs from '@emailjs/browser';
 
 export const ContactUs = () => {
@@ -17,6 +19,9 @@ export const ContactUs = () => {
   };
 
   return (
+    <>
+      <NavBar/>
+     <SocialLinks/>
     <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
     <form ref={form} onSubmit={sendEmail}  className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
@@ -29,6 +34,7 @@ export const ContactUs = () => {
             <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Collaborate</button>
     </form>
    </div> 
+   </>
   );
 };
 export default ContactUs

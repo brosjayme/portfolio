@@ -1,4 +1,6 @@
 import React from 'react'
+import NavBar from '../Components/Navbar';
+import SocialLinks from '../Components/SocialLinks';
 import { data } from "../data/data.js"
 
 const Portfolio = () => {
@@ -8,6 +10,9 @@ const Portfolio = () => {
     //setProject(data);
   
   return (
+    <>
+        <NavBar/>
+     <SocialLinks/>
     <div name='portfolio' className='w-full md:h-screen text-gray-300 bg-[#0a192f] p-12'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
@@ -61,6 +66,7 @@ const Portfolio = () => {
 </div>
       </div>
      </div>
+     </>
   );
 };
 
