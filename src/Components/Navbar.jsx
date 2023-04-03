@@ -23,27 +23,27 @@ const Navbar = () => {
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='./home'>
+          <Link to='/'>
             Home
           </Link>
         </li>
         <li>
-          <Link to='./about'>
+          <Link to='/about'>
             About
           </Link>
         </li>
         <li>
-          <Link to='skills'>
+          <Link to='/skills'>
             Skills
           </Link>
         </li>
         <li>
-          <Link to='portfolio'>
+          <Link to='/portfolio'>
             Portfolio
           </Link>
         </li>
         <li>
-          <Link to='contact' >
+          <Link to='/contact' >
             Contact
           </Link>
         </li>
