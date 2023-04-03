@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../Components/Navbar';
-import SocialLinks from '../Components/SocialLinks';
+// import SocialLinks from '../Components/SocialLinks';
 import HTML from '../assets/html.png';
 import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <>
      <NavBar/>
-     <SocialLinks/>
+     {/* <SocialLinks/> */}
      {/* skills section */}
     <div name='skills' className='w-full md:h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}

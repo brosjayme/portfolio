@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from '../Components/Navbar';
-import SocialLinks from '../Components/SocialLinks';
+// import SocialLinks from '../Components/SocialLinks';
 import Profile from "../assets/profile.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
        <NavBar/>
-     <SocialLinks/>
+     {/* <SocialLinks/> */}
     <div
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
@@ -26,10 +26,7 @@ const Home = () => {
           </p>
 
           <div>
-            <Link
-              to="portfolio"
-              smooth
-              duration={500}
+          <Link to='/portfolio'
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
               Portfolio
