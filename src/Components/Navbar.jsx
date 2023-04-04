@@ -50,7 +50,7 @@ const Navbar = () => {
       </ul>
       
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden absolute top-0 z-10'>
+      <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -63,31 +63,31 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='./home' >
+          <Link onClick={handleClick} to='/'>
             Home
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='./about' >
+          <Link onClick={handleClick} to='/about'>
             About
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='./skills'>
+          <Link onClick={handleClick} to='/skills'>
             Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='./work' >
-            Work
+          <Link onClick={handleClick} to='/portfolio' >
+            Portfolio
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='./contact' >
+          <Link onClick={handleClick} to='/contact' >
             Contact
           </Link>
         </li>

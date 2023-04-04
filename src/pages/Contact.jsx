@@ -22,7 +22,7 @@ export const ContactUs = () => {
     <>
       <NavBar/>
      {/* <SocialLinks/> */}
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-1'>
+    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-1 bg-gradient-to-b from-black via-black to-gray-800'>
     <form ref={form} onSubmit={sendEmail}  className='flex flex-col max-w-[450px] w-full'>
         <div className='pb-4'>
                 <p className='text-3xl font-bold inline border-b-2 border-pink-600 text-gray-300'>Contact</p>
