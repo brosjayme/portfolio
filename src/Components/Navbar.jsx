@@ -9,6 +9,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
+import '../index.css'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -48,6 +49,10 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <div className='toggle-btn'>
+        <span>Dark</span>
+        <img src='asset/moon.png' alt=''/>
+      </div>
       
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>

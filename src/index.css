@@ -32,3 +32,18 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+.toggle-btn{
+    background: #4864ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.toggle-btn img{
+    width: 25px;
+    margin-left: 10px;
+}
