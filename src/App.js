@@ -3,6 +3,8 @@ import React from 'react'
 // import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Navbar from "./Components/Navbar";
+// import { ButtonAppBar } from '@mui/material';
+// import BasicCard from './Card';
 // import Skills from "./pages/Skills";
 // import Portfolio from "./pages/Portfolio";
 
@@ -12,6 +14,7 @@ function App() {
     <div>
      <Navbar></Navbar>
      <Home/>
+     
     </div>
   );
 }

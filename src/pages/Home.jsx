@@ -16,8 +16,8 @@ const Home = () => {
             I'm a Full Stack Developer. </h2>
           <p className="text-gray-500 py-2 max-w-[700px]">
           I’m focused on building responsive front-end web applications, 
-          I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.</p>
+          I love to working on web application using technologies like
+            React, Tailwind, Css, Nodejs and mongoDB.</p>
           <div>
           <Link 
           to="/portfolio"
