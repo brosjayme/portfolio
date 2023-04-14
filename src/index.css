@@ -32,6 +32,22 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+:root{
+    --background-color:#fff;
+    --textcolor:#555;
+    --title-color: #000;
+}
+.drak-theme{
+    --background-color:#000;
+    --textcolor:#999;
+    --title-color: #fff;
+}
+body{
+    background: var(--background-color );
+    color: var(--textcolor);
+}
+
 .toggle-btn{
     background: #4864ff;
     color: #fff;

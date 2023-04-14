@@ -8,12 +8,26 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
+import Moon from '../assets/moon.png'
+import Sun from '../assets/sun.png';
 import { Link } from 'react-router-dom';
 import '../index.css'
 
+let btn = document.getElementById('btn');
+let btnText = document.getElementById('btnText');
+let btnIcon =document.getElementById('btnIcon');
+
+btn.onclick =function () {
+  document.body.classList.toggle('dark-theme')
+
+  if(document.body.classList.contains('dark-theme')){
+    btnIcon.src = {Sun} 
+  }
+}
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+ 
 
   return (
     <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
@@ -49,11 +63,11 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-      <div className='toggle-btn'>
+      <div className='toggle-btn' id='btn'>
         <span>Dark</span>
-        <img src='asset/moon.png' alt=''/>
+        <img src={Moon} alt=''/>
       </div>
-      
+    
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
         {!nav ? <FaBars /> : <FaTimes />}
