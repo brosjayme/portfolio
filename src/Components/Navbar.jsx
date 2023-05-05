@@ -9,21 +9,21 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import Moon from '../assets/moon.png'
-import Sun from '../assets/sun.png';
+// import Sun from '../assets/sun.png';
 import { Link } from 'react-router-dom';
 import '../index.css'
 
-let btn = document.getElementById('btn');
-// let btnText = document.getElementById('btnText');
-let btnIcon =document.getElementById('btnIcon');
+// let btn = document.getElementById('btn');
+// // let btnText = document.getElementById('btnText');
+// let btnIcon =document.getElementById('btnIcon');
 
-btn.onclick =function () {
-  document.body.classList.toggle('dark-theme')
+// btn.onclick =function () {
+//   document.body.classList.toggle('dark-theme')
 
-  if(document.body.classList.contains('dark-theme')){
-    btnIcon.src = {Sun} 
-  }
-}
+//   if(document.body.classList.contains('dark-theme')){
+//     btnIcon.src = {Sun} 
+//   }
+// }
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
