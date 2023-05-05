@@ -1,6 +1,5 @@
 import React from 'react'
 import NavBar from '../Components/Navbar';
-// import SocialLinks from '../Components/SocialLinks';
 import { data } from "../data/data.js"
 
 const Portfolio = () => {
