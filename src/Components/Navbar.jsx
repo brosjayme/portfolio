@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import '../index.css'
 
 let btn = document.getElementById('btn');
-let btnText = document.getElementById('btnText');
+// let btnText = document.getElementById('btnText');
 let btnIcon =document.getElementById('btnIcon');
 
 btn.onclick =function () {
@@ -65,7 +65,7 @@ const Navbar = () => {
       </ul>
       <div className='toggle-btn' id='btn'>
         <span>Dark</span>
-        <img src={Moon} alt=''/>
+        <img src={Moon} alt='' id='btnIcon'/>
       </div>
     
       {/* Hamburger */}
