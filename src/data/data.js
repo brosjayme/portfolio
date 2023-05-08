@@ -6,5 +6,13 @@ export const data =[
         image:travel,
         github:"",
         live:"",
+    },
+
+    {
+        id:1,
+        name:"a travel agency website",
+        image:travel,
+        github:"",
+        live:"",
     }
 ]
