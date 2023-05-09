@@ -4,12 +4,12 @@ export const data =[
         id:1,
         name:"a travel agency website",
         image:travel,
-        github:"",
-        live:"",
+        github:"github.com/Brosjayme",
+        live:"dailyquotes-2m.netlify.app",
     },
 
     {
-        id:1,
+        id:2,
         name:"a travel agency website",
         image:travel,
         github:"",
