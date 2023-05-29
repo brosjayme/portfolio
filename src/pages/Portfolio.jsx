@@ -1,13 +1,12 @@
-import React from 'react'
-import NavBar from '../Components/Navbar';
-import { data } from "../data/data.js"
+import React from "react";
+import NavBar from "../Components/Navbar";
+import { data } from "../data/data.js";
 
 const Portfolio = () => {
+  // projects file
+  const project = data;
+  //setProject(data);
 
-    // projects file
-    const project = data;
-    //setProject(data);
-  
   return (
     <>
       <NavBar />
@@ -51,7 +50,10 @@ const Portfolio = () => {
                         </button>
                       </a>
                       {/* eslint-disable-next-line */}
-                      <a href="http://" target="_blank">
+                      <a
+                        href="http://dailyquotes-2m.netlify.app"
+                        target="_blank"
+                      >
                         <button
                           className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
@@ -70,4 +72,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio
+export default Portfolio;
