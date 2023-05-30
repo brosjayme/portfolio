@@ -80,3 +80,14 @@ export const ContactUs = () => {
   );
 };
 export default ContactUs;
+
+// coverletter
+// Dear Hiring Manager,
+// I am writing to express my interest in the Frontend Remote internship position with your company.
+// With my experience in HTML, CSS and JavaScript, I am confident that I would make a great fit for this role.
+// Here are some documents that showcase my skills and experience:
+//       Portfolio: I have a portfolio website that showcases my frontend development projects it includes websites I have built using HTML, CSS and JavaScript, along with examples of my design and development work. You can view my portfolio at https://okorojohnportfolio.netlify.app.
+//    Resume: I have attached my resume to this form, Which outlines my experience, character and education background in computer science.
+// Thank you for considering my application. I am excited about the opportunity to contribute my skills and gain more experience from your team. please let me know if you require any additional information or have any questions.
+// Sincerely,
+// Okoro John
