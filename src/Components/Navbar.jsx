@@ -47,11 +47,6 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-      {/* darktheme */}
-      {/* <div className='toggle-btn' id='btn'>
-        <span>Dark</span>
-        <img src={Moon} alt='' id='btnIcon'/>
-      </div> */}
 
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
